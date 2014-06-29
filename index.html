@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+  <head>
+    <title>Taishan App</title>
+    <link rel="stylesheet" href="./vendor/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+
+    <script src="./vendor/jquery/dist/jquery.min.js"></script>
+    <script src="./vendor/underscore/underscore.js"></script>
+    <script src="./vendor/moment/min/moment-with-langs.min.js"></script>
+    <script src="./vendor/angular/angular.min.js"></script>
+    <script src="./vendor/angular-route/angular-route.js"></script>
+    <script src="./vendor/clndr/clndr.min.js"></script>
+  <body>
+
+    <div ng-view></div>
+
+    <div id="toolbar">
+      <ul>
+        <li><a href="#/">Home</a></li>
+        <li><a href="#/calendar">Calendar</a></li>
+        <li><a href="#">Ebook</a></li>
+        <li><a href="#">English</a></li>
+      </ul>
+    </div>
+
+    <script src="./js/calendar.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
